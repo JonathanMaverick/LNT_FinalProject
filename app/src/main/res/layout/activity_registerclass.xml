@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register your account here!"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        />
+
+    <EditText
+        android:id="@+id/et_idBimbel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Bimbel"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_usernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_passwordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_confPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_loginLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Here!"
+        android:textColor="@color/link"
+        android:textSize="12dp"
+        android:layout_marginTop="24dp"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/text"
+        />
+
+</LinearLayout>

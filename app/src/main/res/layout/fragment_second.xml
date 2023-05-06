@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Bangun Datar yang kamu ingin cari luasnya !"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:background="@color/teal_200"
+        android:padding="15dp"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:entries="@array/shapes_array"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Sisi"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/text"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:textColor="@color/title"
+        android:gravity="center"/>
+
+</LinearLayout>

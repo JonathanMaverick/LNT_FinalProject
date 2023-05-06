@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Login to Continue"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        />
+
+    <EditText
+        android:id="@+id/et_emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        android:layout_marginTop="48dp"
+        />
+
+    <EditText
+        android:id="@+id/et_passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:backgroundTint="@color/text"
+        android:layout_marginTop="48dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_registerLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account? Register Here!"
+        android:textSize="12dp"
+        android:textColor="@color/link"
+        android:layout_marginTop="24dp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/text"
+        />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LNT Final Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="shapes_array">
+        <item>Persegi</item>
+        <item>Segitiga</item>
+        <item>Lingkaran</item>
+    </string-array>
+
+    <string-array name="volumes_array">
+        <item>Balok</item>
+        <item>Piramid</item>
+        <item>Tabung</item>
+    </string-array>
+
+</resources>
